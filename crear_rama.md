@@ -22,6 +22,10 @@ esto no hará que cambiemos de rama, para hacer este cmabio es necesario ejecuta
 
 git checkout rama_1 
 
+* Como atajo, en lugar de crear una rama usando git branch y luego activarla usando git checkout, puedes usar el comando git checkout seguido de la opción -b, que crea la rama y la activa en un solo paso.
+
+git checkout -b my1stbranch
+
 en este punto puedes hacer tus cambios sin afectar la rama principal. 
 
 Una vez que hayas guardado los cambios o creado nuevos archivos en la rama_1 podemos ver todos los cambios que hemos realizado con el comando 
