@@ -44,4 +44,12 @@ Git reset --hard #commit esto hara que nos movamos al commit indicado
 
 La rama principal contiene la versión final y desplegable del código. 
 
-Crear nuevas ramas cuando necesites cambiar el código. La nueva rama comienza como una copia exacta de la rama original. A medida que realiza cambios, la rama que creó contendrá el código modificado. Más de una rama puede estar experimentando AC al mismo tiempo. Los cambios guardados se llaman commits Las solicitudes de extracción permiten que otros usuarios revisen y utilicen los cambios propuestos Cuando estás listo para fusionar el código modificado en la rama principal fusionas los cambios de código confirmados en tu código principal.
+Crear nuevas ramas cuando necesites cambiar el código. La nueva rama comienza como una copia exacta de la rama original. 
+
+A medida que realiza cambios, la rama que creó contendrá el código modificado. Más de una rama puede estar experimentando AC al mismo tiempo.
+
+Los cambios guardados se llaman commits.
+
+Las solicitudes de extracción permiten que otros usuarios revisen y utilicen los cambios propuestos.
+
+Cuando estás listo para fusionar el código modificado en la rama principal fusionas los cambios de código confirmados en tu código principal.
