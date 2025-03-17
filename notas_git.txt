@@ -53,3 +53,12 @@ Los cambios guardados se llaman commits.
 Las solicitudes de extracción permiten que otros usuarios revisen y utilicen los cambios propuestos.
 
 Cuando estás listo para fusionar el código modificado en la rama principal fusionas los cambios de código confirmados en tu código principal.
+
+
+- Una rama es una instantánea de su repositorio en la que puede realizar cambios. 
+
+- En la rama hija, puede construir, hacer ediciones, probar los cambios y luego fusionarlos con la rama principal. 
+
+- Para asegurarse de que los cambios realizados por un miembro no impiden o afectan al flujo de trabajo de otros miembros, se pueden crear múltiples ramas y fusionarlas con la rama principal.
+
+- Una pull request es una forma de notificar a otros miembros del equipo los cambios y ediciones realizados en la rama principal. 
