@@ -1,0 +1,43 @@
+Para comenzar vamos a hacer la configuración mínima
+
+git config --global user.name "name" (trabajar para dentro de mi equipo, mi maquina y mi user)
+git config --global user.email "correo@example.com" (configuramos el email de manera global)
+
+Para comenzar un control de versiones en un fichero lo hacemos con git init lo cual va a crear un fichero como .git 
+
+Para mostrar archivos ocultos en la Mac cmd + shift + . 
+Y en la terminal vamos a usar ls -la 
+
+Donde se encuentra el fichero .git quiere decir que esta trabajando con el control de versiones. 
+
+Conceptos de ramas, y se puede ramificar con diferentes nombres. 
+
+Para ver el estado local de mi fichero puedo usar git status para ver información detallada
+Además para crear una rama usamos git branch -m main 
+
+Para guardar los cambios de los ficheros que aun no se han guardado crear una versión de ellos, vamos a utilizar git add "nombre del archivo"
+
+Usamos git add . Para agregar todos los ficheros que se encuentran pendientes. 
+
+Vamos a lanzar una foto usando git commit vamos a entrar a un edito de texto 
+
+Sin en cambio vamos a ocupar git commit -m "mensaje"
+
+Nos muestra la rama donde hemos hecho el commit, el id, y por ultimo el mensaje 
+[main (root-commit) 8434205] Inicializacion del proyecto
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hellogit.py
+
+Los archivos que se han agregado y los que se han borrado y el archivo que se ha guardado
+
+Para mostrar una especie de historial de los commits o de las fotos, vamos a usar git log
+
+Ahora cada que haga git add "nombre" vamos a hacer una foto nueva, por ejemplo ahora si vamos a modificar un archivo, también podemos hacer esa foto
+
+Git checkout "nombre del archivo" para ubicarnos en un commit anterior como bajar un modificación anterior. 
+
+Otra manera de ver el historial de los commits es usando git log --graph
+
+Otra manera es git log --graph --pretty=oneline
+ 
+Git reset --hard #commit esto hara que nos movamos al commit indicado 
