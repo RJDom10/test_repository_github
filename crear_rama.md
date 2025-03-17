@@ -62,3 +62,12 @@ y para confirmar que los cambios se han realiado usamos nuevamnete git status
 
 git status 
 
+Nota: 
+* A veces, es posible que no pruebes completamente tus cambios antes de comprometerlos, lo que puede tener consecuencias indeseables. Puedes deshacer tus cambios utilizando un comando git revert como el siguiente.
+
+Puedes especificar el ID de tu commit que puedes ver en la salida del registro anterior o usar el atajo HEAD para revertir el último commit:
+
+git revert HEAD --no-edit
+
+Si no especificas la opción --no-edit, es posible que se te presente una pantalla de editor mostrando el mensaje con los cambios que se revertirán. En ese caso, presiona la tecla Control (o Ctrl) simultáneamente con X.
+
